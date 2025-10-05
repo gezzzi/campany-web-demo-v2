@@ -1,7 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",
+  basePath: "/campany-web-demo-v2",
+  images: {
+    unoptimized: true,
+  },
 };
 
 export default nextConfig;
